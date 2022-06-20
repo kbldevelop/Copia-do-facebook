@@ -1,0 +1,38 @@
+@media(max-width: 600px) {
+    body {
+        display: block;
+        margin: auto;
+        width: 100%;
+    
+    }
+
+    header {
+        display: block;
+        margin: auto;
+        flex-direction: column;
+        
+
+    }
+
+    main {
+        width: 100vw;
+    }
+
+    form#formulario {
+        flex-direction: row;
+    }
+
+    img {
+        display: none;
+    }
+
+    div#info p {
+        display: none;
+    }
+
+    div#colun {
+        width: 100%;
+    }
+
+
+}

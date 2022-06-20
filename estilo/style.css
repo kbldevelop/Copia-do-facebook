@@ -1,0 +1,135 @@
+@charset "UTF-8";
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --cor1: #3E5C9A;
+}
+
+
+body {
+    min-width: 600px;
+    background-color: #DBDDEC;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+header {
+    padding: 25px;
+    background-color: #3E5C9A;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.321);
+}
+
+header > h1 {
+    font-size: 2.3em;
+}
+
+form#formulario {
+    display: inline-flex;
+}
+
+form#formulario input {
+    padding: 3px;
+    margin-right: 10px;
+}
+
+form#formulario input#bot {
+    color: white;
+    padding: 3px;
+    background-color: #5e7dba;
+    border: none;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.424);
+}
+
+main {
+    padding: 20px;
+    min-width: 280px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+section > p {
+    padding: 20px;
+    margin-top: -30px;
+    font-size: 1.4em;
+    font-weight: bolder;
+    
+}
+
+section {
+    margin-top: -50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+div#cabeca {
+    padding-top: 50px;
+}
+
+div#info p {
+    color: #3E5C9A;
+    font-weight: bold;
+}
+
+div h1 {
+    padding: 50px;
+    color: rgb(0, 0, 41);
+    font-size: 2.4em;
+    margin-left: -50px;
+}
+div p {
+    padding: 50px;
+    margin-top: -90px;
+    margin-left: -50px;
+    color: rgb(0, 0, 41);
+    font-size: 1.3em;
+}
+
+div input {
+    padding: 10px;
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+#email2 {
+    width: 365px;
+}
+
+#senha2 {
+    width: 365px;
+}
+
+h2 {
+    color: rgb(0, 0, 41);
+}
+
+input.sexo {
+    margin-top: 100px;
+}
+
+input#botao {
+    width: 20vw;
+    padding: 15px;
+    background-color: rgb(1, 187, 1);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.366);
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
